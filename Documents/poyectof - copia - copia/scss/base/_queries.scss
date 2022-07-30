@@ -1,0 +1,24 @@
+@media (max-width: 1200px){
+  .grid-left {
+  
+      width: 100%;
+  }
+}
+@media (max-width: 991px){
+  .nav {
+      width: auto;
+  
+  }
+}
+@media (min-width: 768px) {
+  .main {
+      background: white;
+      p{
+          color: black;
+      }
+      width: auto;
+  }
+  .nav{
+      width: auto;
+  }
+}

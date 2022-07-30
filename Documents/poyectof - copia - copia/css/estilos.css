@@ -296,26 +296,16 @@ main {
   -moz-box-shadow: 11px -7px 13px 0px rgba(0, 0, 0, 0.75);
 }
 
-@media (max-width: 1200px) {
-  .grid-left {
-    width: 100%;
-  }
-}
-@media (max-width: 991px) {
-  .nav {
-    width: auto;
-  }
-}
-@media (min-width: 768px) {
-  .main {
+@media (max-width: 575.98px) {
+  main {
     background: white;
-    width: auto;
+    width: 100vw;
   }
-  .main p {
-    color: black;
+  h3 {
+    font-size: 20px;
   }
-  .nav {
-    width: auto;
+  h3 p {
+    font-size: 10px;
   }
 }
 
