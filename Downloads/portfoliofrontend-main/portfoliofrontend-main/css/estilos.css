@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*tipografia*/
+h1{
+    font-size: 4rem;
+    font-style: oblique;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: beige;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    font-size: 2rem;
+ 
+}
+body{
+    background-color: grey;
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    padding: 30px;
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+}
+.redes{
+    margin-top: 70px;
+    margin-left: 900px;
+}
+
+.banner{
+    height: 400px;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 30px;
+     background-color: azure;
+    text-align: center;
+
+    }
+    .foto{
+        margin-top: 250px;
+        text-align: left;
+        margin-left: 40px;
+        width: 50px;
+    }
+
+    /*main*/
+ section{
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 130px;
+    margin-bottom: 90px;
+   
+   
+ }
